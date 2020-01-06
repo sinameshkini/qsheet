@@ -16,3 +16,9 @@
 
 ####برای ارتباط مستقیم با تیم توسعه دهنده میتونید به آیدی تلگرام زیر پیام دهید:
 ##@SinaMeshkini
+
+بعد از دانلود پروژه مراحل زیر را انجام دهید تا پروژه به درستی روی سیستم شما اجرا شود:
+1- install composer
+2- rename .env.example to .env and updated it with your database credentials
+3- composer update
+4- php artisan key:generate
